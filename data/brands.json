@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "albert-heijn",
+    "name": "Albert Heijn",
+    "aliases": ["ah"],
+    "colors": { "primary": "" },
+    "logo": "logos/albert-heijn.svg"
+  },
+  {
+    "slug": "etos",
+    "name": "Etos",
+    "aliases": [],
+    "colors": { "primary": "" },
+    "logo": "logos/etos.svg"
+  },
+  {
+    "slug": "gall-and-gall",
+    "name": "Gall & Gall",
+    "aliases": ["gall"],
+    "colors": { "primary": "" },
+    "logo": "logos/gall-and-gall.svg"
+  },
+  {
+    "slug": "kruidvat",
+    "name": "Kruidvat",
+    "aliases": [],
+    "colors": { "primary": "" },
+    "logo": "logos/kruidvat.svg"
+  },
+  {
+    "slug": "holland-and-barrett",
+    "name": "Holland & Barrett",
+    "aliases": ["h&b", "de tuinen", "tuinen"],
+    "colors": { "primary": "" },
+    "logo": "logos/holland-and-barrett.svg"
+  }
+]
