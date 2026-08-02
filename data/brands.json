@@ -3,22 +3,22 @@
     "slug": "albert-heijn",
     "name": "Albert Heijn",
     "aliases": ["ah"],
-    "colors": { "primary": "" },
+    "colors": { "primary": "#00ADE6" },
     "logo": "logos/albert-heijn.svg"
   },
   {
     "slug": "etos",
     "name": "Etos",
     "aliases": [],
-    "colors": { "primary": "" },
+    "colors": { "primary": "#000000" },
     "logo": "logos/etos.svg"
   },
   {
     "slug": "gall-and-gall",
     "name": "Gall & Gall",
     "aliases": ["gall"],
-    "colors": { "primary": "" },
-    "logo": "logos/gall-and-gall.svg"
+    "colors": { "primary": "FF671D" },
+    "logo": "logos/gall.svg"
   },
   {
     "slug": "kruidvat",
@@ -33,5 +33,12 @@
     "aliases": ["h&b", "de tuinen", "tuinen"],
     "colors": { "primary": "" },
     "logo": "logos/holland-and-barrett.svg"
+  }
+  {
+    "slug": "jumbo",
+    "name": "Jumbo",
+    "aliases": [],
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/jumbo.svg"
   }
 ]
