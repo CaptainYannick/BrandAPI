@@ -28,6 +28,7 @@ worker/             → Cloudflare Worker (de API)
      "logo": "logos/albert-heijn.svg"
    }
    ```
+   - Heb je een **bestaand** logo-bestand vervangen (zelfde bestandsnaam, nieuwe inhoud)? Voeg dan een `"version": <nummer>` toe (of hoog 'm met 1 op) aan die brand-entry. De Worker plakt dit als `?v=<nummer>` achter de logo-URL, zodat caches (ook in Pasmaatje zelf) het als een nieuw bestand zien en niet de oude, gecachte afbeelding blijven tonen. Zonder dit veld verandert de logo-URL niet, en kan een al-gecachet plaatje soms tot een paar minuten (of langer, afhankelijk van de cache in Pasmaatje) blijven hangen ondanks een geüpdatet bestand.
    - `aliases`: alle extra zoektermen/afkortingen die gebruikers zouden intypen (naam en slug hoeven er niet nogmaals in).
    - `colors.primary`: officiële hex-kleur van het merk — vul deze zelf in (bv. uit de brand-guidelines van het merk), er staat nu overal een lege placeholder `""`.
 3. Commit + push naar `main`. GitHub Pages en de Worker pikken de wijziging vanzelf op (Worker cachet max. 5 minuten).

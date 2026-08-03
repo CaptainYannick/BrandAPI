@@ -8,6 +8,7 @@ interface Brand {
   aliases: string[];
   colors: { primary: string };
   logo: string;
+  version?: number;
 }
 
 const CORS_HEADERS: Record<string, string> = {
@@ -69,11 +70,12 @@ function jsonResponse(data: unknown, status = 200): Response {
 }
 
 function toPublicBrand(brand: Brand, dataBaseUrl: string) {
+  const logoUrl = `${dataBaseUrl.replace(/\/$/, "")}/${brand.logo}`;
   return {
     slug: brand.slug,
     name: brand.name,
     colors: brand.colors,
-    logo: `${dataBaseUrl.replace(/\/$/, "")}/${brand.logo}`,
+    logo: brand.version ? `${logoUrl}?v=${brand.version}` : logoUrl,
   };
 }
 

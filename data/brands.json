@@ -4,76 +4,87 @@
     "name": "Albert Heijn",
     "aliases": ["ah"],
     "colors": { "primary": "#00ADE6" },
-    "logo": "logos/albert-heijn.svg"
+    "logo": "logos/albert-heijn.svg",
+    "version": 1
   },
   {
     "slug": "etos",
     "name": "Etos",
     "aliases": [],
     "colors": { "primary": "#000000" },
-    "logo": "logos/etos.svg"
+    "logo": "logos/etos.svg",
+    "version": 1
   },
   {
     "slug": "gall-and-gall",
     "name": "Gall & Gall",
     "aliases": ["gall"],
     "colors": { "primary": "#FF671D" },
-    "logo": "logos/gall.svg"
+    "logo": "logos/gall.svg",
+    "version": 1
   },
   {
     "slug": "kruidvat",
     "name": "Kruidvat",
     "aliases": [],
     "colors": { "primary": "" },
-    "logo": "logos/kruidvat.svg"
+    "logo": "logos/kruidvat.svg",
+    "version": 1
   },
   {
     "slug": "holland-and-barrett",
     "name": "Holland & Barrett",
     "aliases": ["h&b", "de tuinen", "tuinen"],
     "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/holland-and-barrett.svg"
+    "logo": "logos/holland-and-barrett.svg",
+    "version": 2
   },
   {
     "slug": "jumbo",
     "name": "Jumbo",
     "aliases": [],
     "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/jumbo.svg"
+    "logo": "logos/jumbo.svg",
+    "version": 1
   },
   {
     "slug": "hema",
     "name": "Hema",
     "aliases": [],
-    "colors": { "primary": "" },
-    "logo": "logos/hema.svg"
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/hema.svg",
+    "version": 1
   },
   {
     "slug": "gamma",
     "name": "Gamma",
     "aliases": [],
     "colors": { "primary": "" },
-    "logo": "logos/gamma.svg"
+    "logo": "logos/gamma.svg",
+    "version": 1
   },
   {
     "slug": "praxis",
     "name": "Praxis",
     "aliases": [],
     "colors": { "primary": "" },
-    "logo": "logos/praxis.svg"
+    "logo": "logos/praxis.svg",
+    "version": 1
   },
   {
 	"slug": "karwei",
     "name": "Karwei",
     "aliases": [],
     "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/karwei.svg"
+    "logo": "logos/karwei.svg",
+    "version": 1
   },
   {
 	"slug": "bosrand",
     "name": "Bosrand",
     "aliases": [],
     "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/bosrand.svg"
+    "logo": "logos/bosrand.svg",
+    "version": 1
   }
 ]
