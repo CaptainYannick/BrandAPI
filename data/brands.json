@@ -33,7 +33,7 @@
     "aliases": ["h&b", "de tuinen", "tuinen"],
     "colors": { "primary": "#E0ECE8" },
     "logo": "logos/holland-and-barrett.svg"
-  }
+  },
   {
     "slug": "jumbo",
     "name": "Jumbo",
