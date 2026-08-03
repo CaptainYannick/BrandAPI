@@ -31,7 +31,7 @@
     "slug": "holland-and-barrett",
     "name": "Holland & Barrett",
     "aliases": ["h&b", "de tuinen", "tuinen"],
-    "colors": { "primary": "#E0ECE8" },
+    "colors": { "primary": "#FFFFFF" },
     "logo": "logos/holland-and-barrett.svg"
   },
   {
