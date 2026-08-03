@@ -51,7 +51,7 @@
     "slug": "hema",
     "name": "Hema",
     "aliases": [],
-    "colors": { "primary": "#FFFFFF" },
+    "colors": { "primary": "#e81111" },
     "logo": "logos/hema.svg",
     "version": 1
   },
