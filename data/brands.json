@@ -48,24 +48,28 @@
     "colors": { "primary": "" },
     "logo": "logos/hema.svg"
   },
+  {
     "slug": "gamma",
     "name": "Gamma",
     "aliases": [],
     "colors": { "primary": "" },
     "logo": "logos/gamma.svg"
   },
+  {
     "slug": "praxis",
     "name": "Praxis",
     "aliases": [],
     "colors": { "primary": "" },
     "logo": "logos/praxis.svg"
   },
+  {
 	"slug": "karwei",
     "name": "Karwei",
     "aliases": [],
     "colors": { "primary": "#FFFFFF" },
     "logo": "logos/karwei.svg"
   },
+  {
 	"slug": "bosrand",
     "name": "Bosrand",
     "aliases": [],
