@@ -35,9 +35,9 @@
     "slug": "holland-and-barrett",
     "name": "Holland & Barrett",
     "aliases": ["h&b", "de tuinen", "tuinen"],
-    "colors": { "primary": "#FFFFFF" },
+    "colors": { "primary": "#00594C" },
     "logo": "logos/holland-and-barrett.svg",
-    "version": 2
+    "version": 3
   },
   {
     "slug": "jumbo",
@@ -91,8 +91,8 @@
 	"slug": "decathlon",
     "name": "Decathlon",
     "aliases": [],
-    "colors": { "primary": "#FFFFFF" },
+    "colors": { "primary": "#3643ba" },
     "logo": "logos/decathlon.svg",
-    "version": 1
+    "version": 2
   }
 ]
