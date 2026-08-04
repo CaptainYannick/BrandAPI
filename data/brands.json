@@ -94,5 +94,13 @@
     "colors": { "primary": "#0058a3" },
     "logo": "logos/ikea.svg",
     "version": 1
+  },
+  {
+	"slug": "lidl",
+    "name": "Lidl",
+    "aliases": [],
+    "colors": { "primary": "#0050aa" },
+    "logo": "logos/lidl.svg",
+    "version": 1
   }
 ]
