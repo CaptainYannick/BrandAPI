@@ -24,14 +24,6 @@
     "version": 1
   },
   {
-    "slug": "kruidvat",
-    "name": "Kruidvat",
-    "aliases": [],
-    "colors": { "primary": "" },
-    "logo": "logos/kruidvat.svg",
-    "version": 1
-  },
-  {
     "slug": "holland-and-barrett",
     "name": "Holland & Barrett",
     "aliases": ["h&b", "de tuinen", "tuinen"],
@@ -54,38 +46,6 @@
     "colors": { "primary": "#e81111" },
     "logo": "logos/hema.svg",
     "version": 2
-  },
-  {
-    "slug": "gamma",
-    "name": "Gamma",
-    "aliases": [],
-    "colors": { "primary": "" },
-    "logo": "logos/gamma.svg",
-    "version": 1
-  },
-  {
-    "slug": "praxis",
-    "name": "Praxis",
-    "aliases": [],
-    "colors": { "primary": "" },
-    "logo": "logos/praxis.svg",
-    "version": 1
-  },
-  {
-	"slug": "karwei",
-    "name": "Karwei",
-    "aliases": [],
-    "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/karwei.svg",
-    "version": 1
-  },
-  {
-	"slug": "bosrand",
-    "name": "Bosrand",
-    "aliases": [],
-    "colors": { "primary": "#FFFFFF" },
-    "logo": "logos/bosrand.svg",
-    "version": 1
   },
   {
 	"slug": "decathlon",
