@@ -65,11 +65,11 @@
   },
   {
 	"slug": "airmiles",
-    "name": "Airmiles",
+    "name": "Air Miles",
     "aliases": ["air miles"],
     "colors": { "primary": "#007CE1" },
     "logo": "logos/airmiles.png",
-    "version": 1
+    "version": 2
   },
   {
 	"slug": "anwb",
