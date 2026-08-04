@@ -86,5 +86,13 @@
     "colors": { "primary": "#003878" },
     "logo": "logos/gamma.png",
     "version": 1
+  },
+  {
+	"slug": "ikea",
+    "name": "Ikea",
+    "aliases": [],
+    "colors": { "primary": "#0058a3" },
+    "logo": "logos/ikea.svg",
+    "version": 1
   }
 ]
