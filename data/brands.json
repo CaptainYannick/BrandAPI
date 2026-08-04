@@ -54,5 +54,13 @@
     "colors": { "primary": "#3643ba" },
     "logo": "logos/decathlon.svg",
     "version": 2
+  },
+  {
+	"slug": "kruidvat",
+    "name": "Kruidvat",
+    "aliases": [],
+    "colors": { "primary": "#E2001A" },
+    "logo": "logos/kruidvat.svg",
+    "version": 1
   }
 ]
