@@ -62,5 +62,13 @@
     "colors": { "primary": "#E2001A" },
     "logo": "logos/kruidvat.svg",
     "version": 1
+  },
+  {
+	"slug": "airmiles",
+    "name": "Airmiles",
+    "aliases": [],
+    "colors": { "primary": "#007CE1" },
+    "logo": "logos/airmiles.png",
+    "version": 1
   }
 ]
