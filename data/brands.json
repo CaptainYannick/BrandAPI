@@ -35,7 +35,7 @@
     "slug": "jumbo",
     "name": "Jumbo",
     "aliases": [],
-    "colors": { "primary": "#FFFFFF" },
+    "colors": { "primary": "#fdc513" },
     "logo": "logos/jumbo.svg",
     "version": 1
   },
@@ -69,6 +69,22 @@
     "aliases": ["air miles"],
     "colors": { "primary": "#007CE1" },
     "logo": "logos/airmiles.png",
+    "version": 1
+  },
+  {
+	"slug": "anwb",
+    "name": "ANWB",
+    "aliases": [],
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/anwb.svg",
+    "version": 1
+  },
+  {
+	"slug": "gamma",
+    "name": "Gamma",
+    "aliases": [],
+    "colors": { "primary": "#003878" },
+    "logo": "logos/gamma.png",
     "version": 1
   }
 ]
