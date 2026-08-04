@@ -19,9 +19,9 @@
     "slug": "gall-and-gall",
     "name": "Gall & Gall",
     "aliases": ["gall"],
-    "colors": { "primary": "#FF671D" },
+    "colors": { "primary": "#242337" },
     "logo": "logos/gall.svg",
-    "version": 1
+    "version": 2
   },
   {
     "slug": "holland-and-barrett",
