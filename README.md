@@ -106,3 +106,27 @@ Geen match → `404`:
 **`GET /brands`** — geeft alle merken terug (handig om in de app te cachen).
 
 CORS staat open (`Access-Control-Allow-Origin: *`), dus rechtstreeks aan te roepen vanuit de Pasmaatje-app.
+
+**`POST /track`** — anonieme winkelteller voor Pasmaatje (zie `store_usage_test.dart`/`BRANDAPI_TRACKING.md` in de Pasmaatje-repo voor de app-kant). Body is `{"slug": "ikea"}` of `{"custom": "praxis"}`, altijd `204` terug, gelimiteerd tot 20 requests/min per IP. Geen CORS nodig, wordt niet vanuit een browser aangeroepen.
+
+**`GET /stats?token=<STATS_TOKEN>`** — HTML-dashboard met welke merken/eigen-getypte winkels het vaakst voorkomen (eigen-getypte namen pas vanaf 3x, om toevallige/persoonlijke invoer niet te tonen). `401` zonder of met verkeerd token.
+
+## 6. Eenmalige setup voor `/track` en `/stats` (D1 + secret)
+
+Dit hoef je maar één keer te doen, met je eigen Cloudflare-login (`npx wrangler login`, zie stap 5):
+
+```bash
+cd worker
+npx wrangler d1 create pasmaatje-stats
+```
+Plak de `database_id` die dit teruggeeft in `worker/wrangler.toml` bij `[[d1_databases]]` (i.p.v. `REPLACE-ME-AFTER-D1-CREATE`).
+
+```bash
+npx wrangler d1 execute pasmaatje-stats --remote --file=schema.sql
+npx wrangler secret put STATS_TOKEN
+```
+Verzin bij die laatste een eigen lang, willekeurig token — dat is straks je wachtwoord voor `/stats`.
+
+De rate limiter (`[[ratelimits]]` in `wrangler.toml`) heeft geen aparte aanmaakstap nodig — die is direct actief na de eerstvolgende `npm run deploy`.
+
+**Belangrijk, buiten deze repo:** de vlag `storeUsageTrackingEnabled` in de Pasmaatje-app blijft `false` totdat ook de privacybeleid- en Play Data Safety-aanpassingen zijn doorgevoerd (zie `BRANDAPI_TRACKING.md` in de Pasmaatje-repo, sectie "Voor je live gaat") — dat is aan de Pasmaatje-kant, niet iets in dit repo.

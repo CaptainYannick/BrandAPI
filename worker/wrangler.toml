@@ -6,3 +6,16 @@ compatibility_date = "2026-08-02"
 # Pas dit aan zodra GitHub Pages voor dit repo aanstaat, bv:
 # https://<jouw-github-gebruikersnaam>.github.io/BrandAPI
 DATA_BASE_URL = "https://captainyannick.github.io/BrandAPI"
+
+# Aanmaken: npx wrangler d1 create pasmaatje-stats
+# Plak de database_id die dat commando teruggeeft hieronder.
+[[d1_databases]]
+binding = "STATS"
+database_name = "pasmaatje-stats"
+database_id = "REPLACE-ME-AFTER-D1-CREATE"
+
+# Geen dashboard-actie nodig: dit is een code-only binding, direct actief na deploy.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 20, period = 60 }
