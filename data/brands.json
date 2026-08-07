@@ -110,5 +110,13 @@
     "colors": { "primary": "#FFFFFF" },
     "logo": "logos/intratuin.svg",
     "version": 1
+  },
+  {
+	"slug": "action",
+    "name": "Action",
+    "aliases": [],
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/action.svg",
+    "version": 1
   }
 ]
