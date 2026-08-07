@@ -102,5 +102,13 @@
     "colors": { "primary": "#0050aa" },
     "logo": "logos/lidl.svg",
     "version": 1
+  },
+  {
+	"slug": "intratuin",
+    "name": "Intratuin",
+    "aliases": [],
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/intratuin.svg",
+    "version": 1
   }
 ]
