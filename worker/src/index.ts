@@ -1,5 +1,6 @@
 export interface Env {
   DATA_BASE_URL: string;
+  CUSTOM_THRESHOLD: number;
   STATS: D1Database;
   STATS_TOKEN: string;
   RATE_LIMITER: RateLimit;
@@ -173,7 +174,7 @@ async function handleStats(url: URL, env: Env): Promise<Response> {
   // niet interessant voor de merkenlijst en is nou juist wat persoonlijk kan
   // zijn — dit is de belangrijkste regel op deze pagina.
   const custom = await env.STATS.prepare(
-    `SELECT name, count FROM store_counts WHERE kind = 'custom' AND count >= 3 ORDER BY count DESC LIMIT 100`
+    `SELECT name, count FROM store_counts WHERE kind = 'custom' AND count >= 2 ORDER BY count DESC LIMIT 100`
   ).all<{ name: string; count: number }>();
 
   return new Response(renderStatsHtml(known.results, custom.results), {

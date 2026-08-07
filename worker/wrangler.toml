@@ -7,6 +7,10 @@ compatibility_date = "2026-08-02"
 # https://<jouw-github-gebruikersnaam>.github.io/BrandAPI
 DATA_BASE_URL = "https://captainyannick.github.io/BrandAPI"
 
+# Minimaal aantal keer dat een zelf-getypte winkelnaam voor moet komen voordat
+# die op het /stats-dashboard verschijnt (privacy-drempel, zie README).
+CUSTOM_THRESHOLD = 2
+
 # Aanmaken: npx wrangler d1 create pasmaatje-stats
 # Plak de database_id die dat commando teruggeeft hieronder.
 [[d1_databases]]
