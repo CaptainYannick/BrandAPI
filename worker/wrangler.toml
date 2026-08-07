@@ -12,7 +12,7 @@ DATA_BASE_URL = "https://captainyannick.github.io/BrandAPI"
 [[d1_databases]]
 binding = "STATS"
 database_name = "pasmaatje-stats"
-database_id = "REPLACE-ME-AFTER-D1-CREATE"
+database_id = "e3d4e40f-766a-4b62-bd2e-6e9d74f685cc"
 
 # Geen dashboard-actie nodig: dit is een code-only binding, direct actief na deploy.
 [[ratelimits]]
