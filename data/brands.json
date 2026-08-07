@@ -118,5 +118,13 @@
     "colors": { "primary": "#FFFFFF" },
     "logo": "logos/action.svg",
     "version": 1
+  },
+  {
+	"slug": "bosrand",
+    "name": "Bosrand",
+    "aliases": [],
+    "colors": { "primary": "#FFFFFF" },
+    "logo": "logos/bosrand.svg",
+    "version": 1
   }
 ]
